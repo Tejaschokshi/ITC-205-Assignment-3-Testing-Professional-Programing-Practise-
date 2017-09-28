@@ -66,7 +66,7 @@ public class AdhocTicket implements IAdhocTicket {
 	public void pay(long paidDateTime, float charge) {
 		this.paidDateTime = paidDateTime;
 		this.charge = charge;
-		state_ = STATE.PAID;
+		state_ = STATE.PAID;//4545
 	}
 	
 	
